@@ -1,0 +1,4 @@
+U:RDoc::AnyMethod[iI"length:ETI"SDBM#length;TF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"0Returns the number of keys in the database.;T:
+@fileI"ext/sdbm/init.c;T:0@omit_headings_from_table_of_contents_below0I"1sdbm.length -> integer
+sdbm.size -> integer
+;T0[[I"	size;T@	I"();T@FI"	SDBM;TcRDoc::NormalClass00

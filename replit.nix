@@ -3,7 +3,7 @@
 { pkgs }: {
   deps = [
     # Jekyll
-    pkgs.jekyll
+    pkgs.ruby_3_0
 
     # Shells
     pkgs.fish

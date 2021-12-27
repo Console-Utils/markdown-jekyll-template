@@ -1,0 +1,4 @@
+U:RDoc::AnyMethod[iI"delete_if:ETI"SDBM#delete_if;TF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"KIterates over the key-value pairs in the database, deleting those for ;TI"$which the block returns +true+.;T:
+@fileI"ext/sdbm/init.c;T:0@omit_headings_from_table_of_contents_below0I"]sdbm.delete_if { |key, value| ... } -> self
+sdbm.reject!   { |key, value| ... } -> self
+;T0[[I"reject!;T@	I"();T@FI"	SDBM;TcRDoc::NormalClass00

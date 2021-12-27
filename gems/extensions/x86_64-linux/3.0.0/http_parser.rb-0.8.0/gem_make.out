@@ -1,0 +1,24 @@
+current directory: /home/runner/markdown-jekyll-template/gems/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/bin/ruby -I /nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20211227-214-eryzie.rb extconf.rb
+creating Makefile
+
+current directory: /home/runner/markdown-jekyll-template/gems/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/runner/markdown-jekyll-template/gems/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+ruby_http_parser.c: In function ‘Parser_execute’:
+ruby_http_parser.c:365:17: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  365 |     if (nparsed < len)
+      |                 ^
+ruby_http_parser.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/runner/markdown-jekyll-template/gems/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20211227-214-is8kdq
