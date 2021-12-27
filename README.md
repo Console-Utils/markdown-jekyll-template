@@ -20,15 +20,16 @@ Template for faster writing Jekyll sites in Repl.it.
   - [`jekyll-readme-index`](https://rubygems.org/gems/jekyll-readme-index)
   - [`jekyll-titles-from-headings`](https://rubygems.org/gems/jekyll-titles-from-headings)
   - [`jekyll-relative-links`](https://rubygems.org/gems/jekyll-relative-links)
-- Fisher packages: [fishtape](https://github.com/jorgebucaran/fishtape)
 - Nix packages:
-  - [ruby]
-  - [fish](https://search.nixos.org/packages?channel=21.05&show=fish&from=0&size=50&sort=relevance&type=packages&query=fish)
-  - [elvish](https://search.nixos.org/packages?channel=21.05&show=elvish&from=0&size=50&sort=relevance&type=packages&query=elvish)
-  - [bash](https://search.nixos.org/packages?channel=21.05&show=bash_5&from=0&size=50&sort=relevance&type=packages&query=bash)
-  - [tldr](https://search.nixos.org/packages?channel=21.05&show=tldr&from=0&size=50&sort=relevance&type=packages&query=tldr)
-  - [tree](https://search.nixos.org/packages?channel=21.05&show=tree&from=0&size=50&sort=relevance&type=packages&query=tree)
-  - [bc](https://search.nixos.org/packages?channel=21.11&show=bc&from=0&size=50&sort=relevance&type=packages&query=bc)
+  - [`ruby_3_0`](https://search.nixos.org/packages?channel=21.11&show=ruby_3_0&from=0&size=50&sort=relevance&type=packages&query=ruby)
+  - [`fish`](https://search.nixos.org/packages?channel=21.05&show=fish&from=0&size=50&sort=relevance&type=packages&query=fish)
+  - [`elvish`](https://search.nixos.org/packages?channel=21.05&show=elvish&from=0&size=50&sort=relevance&type=packages&query=elvish)
+  - [`bash`](https://search.nixos.org/packages?channel=21.05&show=bash_5&from=0&size=50&sort=relevance&type=packages&query=bash)
+  - [`tldr`](https://search.nixos.org/packages?channel=21.05&show=tldr&from=0&size=50&sort=relevance&type=packages&query=tldr)
+  - [`tree`](https://search.nixos.org/packages?channel=21.05&show=tree&from=0&size=50&sort=relevance&type=packages&query=tree)
+  - [`bc`](https://search.nixos.org/packages?channel=21.11&show=bc&from=0&size=50&sort=relevance&type=packages&query=bc)
+- Fisher packages:
+  - [`fishtape`](https://github.com/jorgebucaran/fishtape)
 - Shell aliases:
   - `Fish`:
     - `abbr -a -U -- e echo`
