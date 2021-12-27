@@ -29,4 +29,15 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # View https://github.com/jekyll/jekyll/issues/8523 for details.
-gem "webrick"
+# List of plugins is taken also from https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins page.
+["webrick",
+  "jekyll-default-layout",
+  "jekyll-gist",
+  "jekyll-github-metadata",
+  "jekyll-optional-front-matter",
+  "jekyll-paginate",
+  "jekyll-readme-index",
+  "jekyll-titles-from-headings",
+  "jekyll-relative-links"].each do |plugin|
+  gem plugin
+end
