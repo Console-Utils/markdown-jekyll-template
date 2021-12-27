@@ -6,9 +6,23 @@ Template for faster writing Jekyll sites in Repl.it.
 
 ## Notes
 
+- RubyGems packages:
+  - [`sdbm`](https://rubygems.org/gems/sdbm)
+  - [`webrick`](https://rubygems.org/gems/webrick)
+  - [`net-telnet`](https://rubygems.org/gems/net-telnet)
+  - [`xmlrpc`](https://rubygems.org/gems/xmlrpc)
+  - [`jekyll-feed`](https://rubygems.org/gems/jekyll-feed)
+  - [`jekyll-default-layout`](https://rubygems.org/gems/jekyll-default-layout)
+  - [`jekyll-gist`](https://rubygems.org/gems/jekyll-gist)
+  - [`jekyll-github-metadata`](https://rubygems.org/gems/jekyll-github-metadata)
+  - [`jekyll-optional-front-matter`](https://rubygems.org/gems/jekyll-optional-front-matter)
+  - [`jekyll-paginate`](https://rubygems.org/gems/jekyll-paginate)
+  - [`jekyll-readme-index`](https://rubygems.org/gems/jekyll-readme-index)
+  - [`jekyll-titles-from-headings`](https://rubygems.org/gems/jekyll-titles-from-headings)
+  - [`jekyll-relative-links`](https://rubygems.org/gems/jekyll-relative-links)
 - Fisher packages: [fishtape](https://github.com/jorgebucaran/fishtape)
 - Nix packages:
-  - [jekyll](https://search.nixos.org/packages?channel=21.11&from=0&size=50&sort=relevance&type=packages&query=jekyll)
+  - [ruby]
   - [fish](https://search.nixos.org/packages?channel=21.05&show=fish&from=0&size=50&sort=relevance&type=packages&query=fish)
   - [elvish](https://search.nixos.org/packages?channel=21.05&show=elvish&from=0&size=50&sort=relevance&type=packages&query=elvish)
   - [bash](https://search.nixos.org/packages?channel=21.05&show=bash_5&from=0&size=50&sort=relevance&type=packages&query=bash)
